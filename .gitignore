@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+
+# Cached market data is never redistributed: re-download it with the scripts.
+data/
+
+# Per-factor quantile detail is reproducible from run.py; only the summary
+# table is kept so the repo stays lean.
+output/quantiles_*.csv
